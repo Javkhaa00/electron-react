@@ -2,10 +2,12 @@
     margin: 0 !important;
     user-select: none;
     cursor: pointer;
+    list-style: none;
 }
 
 .wrapper {
-    height: 100vh;
-    width: 100vw;
-    background-color: #2233aa;
+	width: 100vw;
+    background-color: blanchedalmond;
+	display: flex;
+	flex-direction: column;
 }

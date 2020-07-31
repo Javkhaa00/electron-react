@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+}
+.header-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

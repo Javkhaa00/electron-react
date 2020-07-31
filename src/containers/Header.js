@@ -2,8 +2,16 @@ import React from 'react';
 
 export const Header = () => {
     return (
-        <div className="wrapper">
-            <h1>HI</h1>
+        <div className="header">
+            <div className="wrapper">
+                <div className="header-items">
+                    <ul>
+                        <li><div>UPLOAD FILE</div></li>
+                        <li><div>EMPTY</div></li>
+                        <li><div>DELETE</div></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 };
